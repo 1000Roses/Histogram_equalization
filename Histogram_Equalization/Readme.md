@@ -1,0 +1,1 @@
+Histogram Equalization to make image look better in conditional gray of image is dark, improve contrast of image. To do it, change step by step pixel by use histogram equalization formulas on wikipedia. I thank you someone for contribute to make eassy code.hihi!!! 
