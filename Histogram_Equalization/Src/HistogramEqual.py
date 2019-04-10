@@ -44,13 +44,13 @@ for i in c :					    #--------	VanTien	@Author	--------							#|
 	Temp = c[i]																						#| 		#Code Equalization.
 	k = k + 1																						#|
 for j in c :																						#|
-	c[j]= round(((c[j] - cdf_min)/(AllOfPixels - cdf_min)) * 255) #value						    #| 
-	if (c[j] > 255):																				#|  
-		c[j] = 255																					#| =====     ====    ===========
-for row in range(img.shape[0]):																		#|   ====   ====         ===
-	for col in range(img.shape[1]):																	#|    ==== ====          ===
-		for step in range(3):																		#|     =======    <:>    ===
-			img[row][col][step] = c[img[row][col][step]]											#|
+	c[j]= round(((c[j] - cdf_min)/(AllOfPixels - cdf_min)) * 255) #value			       			    #| 
+	if (c[j] > 255):												#|  
+		c[j] = 255												#| =====     ====    ===========
+for row in range(img.shape[0]):			 									#|   ====   ====         ===
+	for col in range(img.shape[1]):											#|    ==== ====          ===
+		for step in range(3):											#|     =======    <:>    ===
+			img[row][col][step] = c[img[row][col][step]]							#|
 #-----------------------------------------------------------------------------------------------------
 
 create_histogram(img,output = "After_Equalization")  #print histogram of image after equalization
