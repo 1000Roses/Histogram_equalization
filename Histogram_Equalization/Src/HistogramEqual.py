@@ -28,12 +28,12 @@ c = collections.OrderedDict(sorted(b.items())) # Sort dictionary
 
 
 #--------------Tim cdf_min-----------------------
-key_min = min(c.keys(),key = (lambda k: c[k]))	#|			# find cdf_min
-cdf_min = c[key_min]							#|
+key_min = min(c.keys(),key = (lambda k: c[k]))	#|	# find cdf_min
+cdf_min = c[key_min]				#|
 #------------------------------------------------
 
 #---------------------------------------------
-AllOfPixels = img.shape[0]*img.shape[1]*3	#|		#Code to find all of Pixels in image
+AllOfPixels = img.shape[0]*img.shape[1]*3	#|	#Code to find all of Pixels in image
 #---------------------------------------------
 
 #----------------------------------------------------------------------------------------------------
@@ -56,6 +56,6 @@ for row in range(img.shape[0]):			 							#|   ====   ====         ===
 create_histogram(img,output = "After_Equalization")  #print histogram of image after equalization
 
 print("The image after histogram Equalization by VanTien")
-print("Loading...")
-print("-------------Bat folder tim anh sau khi chinh sua")
+
+print("Loading...Done------>Click on folder to find image after Equal <:>")
 cv2.imwrite("Equalization_histogram_Of_Image.jpg",img)
