@@ -27,7 +27,7 @@ c = collections.OrderedDict(sorted(b.items())) # Sort dictionary
 
 
 
-#--------------Tim cdf_min-----------------------
+#--------------find cdf_min-----------------------
 key_min = min(c.keys(),key = (lambda k: c[k]))	#|	# find cdf_min
 cdf_min = c[key_min]				#|
 #------------------------------------------------
