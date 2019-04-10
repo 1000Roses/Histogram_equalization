@@ -22,7 +22,7 @@ create_histogram(img,output= "Before_Equalization")   # print histogram of image
 
 z = img.ravel()
 a = np.array(z)
-b = collections.Counter(a) #phan loai bang dictionary
+b = collections.Counter(a) #Create dictionary
 c = collections.OrderedDict(sorted(b.items())) # Sort dictionary
 
 
