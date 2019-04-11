@@ -6,4 +6,4 @@ And how to run code:
   MyEnglish very bad,so .....I thank for reading. ^-^
   
   
-<img src="https://user-images.githubusercontent.com/45195540/55923543-32160400-5c30-11e9-8628-7e021be717c1.png" alt="alt text" width="300" height="169">
+<img src="https://user-images.githubusercontent.com/45195540/55923543-32160400-5c30-11e9-8628-7e021be717c1.png" alt="alt text" width="300" height="169"> <img src="https://user-images.githubusercontent.com/45195540/55923961-1c094300-5c32-11e9-8847-d413f834c773.jpg" alt="alt text" width="300" height="169">
