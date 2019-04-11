@@ -4,3 +4,6 @@ And how to run code:
   For *Example*: python HistogramEqual.py C:\Users\VanTien\Downloads\Compressed\car.png
   
   MyEnglish very bad,so .....I thank for reading. ^-^
+  
+  
+<img src="https://user-images.githubusercontent.com/45195540/55923543-32160400-5c30-11e9-8628-7e021be717c1.png" alt="alt text" width="300" height="169">
