@@ -3,6 +3,11 @@ import numpy as np				#|		#Import
 import collections				#|
 from matplotlib import pyplot as plt		#|
 #--------------------------------------------
+__     __        _____ _            
+\ \   / /_ _ _ _|_   _(_) ___ _ __  
+ \ \ / / _` | '_ \| | | |/ _ \ '_ \ 
+  \ V / (_| | | | | | | |  __/ | | |
+   \_/ \__,_|_| |_|_| |_|\___|_| |_|
 
 Open_Image = sys.argv[1]					#		
 assert os.path.isfile(Open_Image), '%s not found' % Open_Image	# Code to open your image
